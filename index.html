@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#050506">
+<meta name="description" content="CAPTAIN TIGER — official identity, technology, programming, AI and cyber activity profile.">
+<title>CAPTAIN TIGER — IDENTIFY</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap');
+:root{
+ --bg:#050506;--bg2:#090a0d;--panel:rgba(16,17,21,.68);--line:rgba(255,255,255,.09);
+ --gold:#d9ad55;--gold2:#ffe0a0;--white:#f7f7f4;--muted:#9b9da4;--red:#8e1822;
+ --shadow:0 30px 90px rgba(0,0,0,.55);--radius:24px;
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:
+ radial-gradient(circle at 80% 10%,rgba(217,173,85,.10),transparent 26rem),
+ radial-gradient(circle at 10% 45%,rgba(100,20,30,.10),transparent 24rem),
+ var(--bg);color:var(--white);font-family:Vazirmatn,system-ui,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.035;background-image:linear-gradient(rgba(255,255,255,.5) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.5) 1px,transparent 1px);background-size:55px 55px;mask-image:linear-gradient(to bottom,black,transparent 70%)}
+a{text-decoration:none;color:inherit}.wrap{width:min(1220px,calc(100% - 40px));margin:auto}
+::selection{background:var(--gold);color:#111}
+.topbar{position:fixed;inset:0 0 auto;z-index:50;border-bottom:1px solid var(--line);background:rgba(5,5,6,.62);backdrop-filter:blur(18px)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{font:800 18px Orbitron,sans-serif;letter-spacing:2px;direction:ltr}.brand i{color:var(--gold);font-style:normal}
+.links{display:flex;gap:22px;font-size:13px;color:#b9bbc1}.links a{transition:.25s}.links a:hover{color:var(--gold2)}
+.nav-cta{border:1px solid rgba(217,173,85,.45);padding:9px 15px;border-radius:999px;font-size:12px;color:var(--gold2)}
+.hero{min-height:100svh;display:grid;place-items:center;position:relative;padding-top:76px;overflow:hidden}
+.hero-art{position:absolute;inset:0;background:
+ linear-gradient(90deg,rgba(5,5,6,.98) 0%,rgba(5,5,6,.76) 38%,rgba(5,5,6,.25) 72%,rgba(5,5,6,.92) 100%),
+ url("assets/guard-joint-cyber-federal.png") 72% center/min(760px,70vw) auto no-repeat;opacity:.86}
+.hero:after{content:"";position:absolute;inset:auto 0 0;height:220px;background:linear-gradient(transparent,var(--bg))}
+.hero-content{position:relative;z-index:2;width:100%;padding:110px 0 160px}
+.pill{display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(217,173,85,.35);background:rgba(217,173,85,.05);border-radius:999px;padding:8px 13px;color:var(--gold2);font-size:11px;letter-spacing:1.5px}
+.pill b{width:7px;height:7px;border-radius:50%;background:#62e18b;box-shadow:0 0 18px #62e18b}
+h1{font:900 clamp(60px,11vw,148px)/.86 Orbitron,sans-serif;letter-spacing:-5px;margin:24px 0 18px;direction:ltr;max-width:900px}
+h1 span{display:block;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.7);text-shadow:0 0 50px rgba(217,173,85,.08)}
+.hero-copy{max-width:680px;color:#c6c8cd;font-size:17px;line-height:2}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{padding:13px 19px;border-radius:13px;border:1px solid var(--line);background:rgba(255,255,255,.04);font-size:13px;transition:.25s}.btn:hover{transform:translateY(-3px);border-color:rgba(217,173,85,.55)}.btn.primary{background:linear-gradient(135deg,#f1cc7e,#a87523);color:#111;font-weight:900;border:0;box-shadow:0 12px 35px rgba(217,173,85,.17)}
+.scroll{position:absolute;bottom:34px;left:50%;transform:translateX(-50%);z-index:3;color:#70727a;font-size:10px;letter-spacing:3px;direction:ltr}.scroll:after{content:"";display:block;width:1px;height:40px;background:linear-gradient(var(--gold),transparent);margin:9px auto}
+section{padding:120px 0;position:relative}.eyebrow{font:700 11px Orbitron,sans-serif;letter-spacing:2px;color:var(--gold);direction:ltr}.title{font-size:42px;line-height:1.2;margin:10px 0 12px}.lead{color:var(--muted);max-width:680px}.section-head{margin-bottom:42px}
+.about-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:20px}.glass{background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.015));border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);backdrop-filter:blur(18px)}
+.about-main{padding:34px}.about-main h3{font-size:24px;margin:0 0 16px}.about-main p{color:#c4c6cb;line-height:2.1}
+.facts{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:25px}.fact{padding:15px;border-radius:15px;background:rgba(0,0,0,.22);border:1px solid var(--line)}.fact small{display:block;color:var(--gold);font-size:10px;margin-bottom:4px;letter-spacing:1px}.fact b{font-size:14px}
+.identity{padding:0;overflow:hidden;position:relative}.identity img{width:100%;height:100%;min-height:450px;object-fit:cover;opacity:.75}.identity div{position:absolute;inset:auto 0 0;padding:26px;background:linear-gradient(transparent,rgba(0,0,0,.95))}.identity strong{font:800 24px Orbitron,sans-serif;direction:ltr;display:block}.identity span{color:#bbb;font-size:12px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.stat{padding:27px;text-align:center;position:relative;overflow:hidden}.stat:before{content:"";position:absolute;width:100px;height:100px;border-radius:50%;background:rgba(217,173,85,.10);filter:blur(25px);top:-50px;right:-20px}.num{font:900 42px Orbitron,sans-serif;color:var(--gold2);direction:ltr}.label{display:block;color:#999;font-size:11px;margin-top:9px}
+.skill-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.skill{padding:24px;min-height:145px;display:flex;flex-direction:column;justify-content:space-between}.skill .icon{font-size:26px;color:var(--gold)}.skill h4{margin:12px 0 0;font-size:15px}.skill p{color:#888;font-size:11px;margin:7px 0 0}
+.timeline{display:grid;gap:1px;border:1px solid var(--line);border-radius:20px;overflow:hidden}.event{display:grid;grid-template-columns:120px 1fr auto;gap:20px;align-items:center;padding:20px 23px;background:rgba(255,255,255,.025);border-bottom:1px solid var(--line)}.event:last-child{border:0}.event time{font:700 12px Orbitron;color:var(--gold);direction:ltr}.event b{font-size:14px}.event span{color:#7f8189;font-size:11px}
+.badges{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.badge{overflow:hidden;transition:.35s}.badge:hover{transform:translateY(-7px);border-color:rgba(217,173,85,.4)}.badge img{width:100%;aspect-ratio:1;object-fit:cover;display:block;filter:saturate(.85)}.badge figcaption{padding:14px 16px;font-size:12px;font-weight:700}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.gallery img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:20px;border:1px solid var(--line);background:#000}
+.socials{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.social{padding:19px 21px;display:flex;justify-content:space-between;align-items:center;transition:.25s}.social:hover{transform:translateX(-4px);border-color:rgba(217,173,85,.4)}.social small{color:#70727a;display:block;font-size:10px}.social b{font:700 13px Orbitron,sans-serif;direction:ltr;display:block;color:var(--gold2)}.arrow{color:var(--gold);font-size:20px}
+.disclaimer{margin-top:25px;padding:18px 20px;border-right:2px solid var(--gold);color:#8f9198;font-size:11px;background:rgba(255,255,255,.025);border-radius:12px}
+footer{padding:55px 0;border-top:1px solid var(--line);color:#696b72;font-size:11px}.footer-in{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer-brand{font:800 16px Orbitron;color:#aaa;direction:ltr}.footer-brand span{color:var(--gold)}
+@media(max-width:900px){.links{display:none}.about-grid{grid-template-columns:1fr}.stats,.skill-grid{grid-template-columns:repeat(2,1fr)}.badges{grid-template-columns:repeat(2,1fr)}.hero-art{background-position:70% center;opacity:.42}.hero-content{padding-top:80px}}
+@media(max-width:600px){.wrap{width:min(100% - 26px,1220px)}.nav{height:65px}.nav-cta{display:none}section{padding:85px 0}.title{font-size:31px}h1{font-size:55px;letter-spacing:-3px}.hero-copy{font-size:14px}.stats,.skill-grid,.badges,.socials,.gallery{grid-template-columns:1fr}.facts{grid-template-columns:1fr}.event{grid-template-columns:1fr;gap:5px}.event span{display:none}.footer-in{flex-direction:column;align-items:flex-start}}
+</style>
+
+<link rel="canonical" href="https://sites.google.com/view/captain-tiger/home">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="author" content="CAPTAIN TIGER">
+<meta name="keywords" content="CAPTAIN TIGER, Captain Tiger, کاپیتان تایگر, کاپیتان تایگر, CaptainTiger, Im_CAPTAiN_TIGER, برنامه نویسی, کدنویسی, هوش مصنوعی, IT, cyber, cyber reporting">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="CAPTAIN TIGER | کاپیتان تایگر — Official Profile">
+<meta property="og:description" content="پروفایل رسمی CAPTAIN TIGER؛ فناوری، برنامه‌نویسی، هوش مصنوعی، کامپیوتر و فعالیت‌های سایبری.">
+<meta property="og:url" content="https://sites.google.com/view/captain-tiger/home">
+<meta property="og:site_name" content="CAPTAIN TIGER">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"ProfilePage",
+  "mainEntity":{
+    "@type":"Person",
+    "@id":"https://sites.google.com/view/captain-tiger/home#captain-tiger",
+    "name":"CAPTAIN TIGER",
+    "alternateName":["کاپیتان تایگر","Captain Tiger","CaptainTiger"],
+    "description":"پروفایل CAPTAIN TIGER در حوزه فناوری، برنامه‌نویسی، هوش مصنوعی، کامپیوتر و فعالیت‌های سایبری.",
+    "url":"https://sites.google.com/view/captain-tiger/home",
+    "sameAs":[
+      "https://t.me/Im_CAPTAiN_TIGER",
+      "https://t.me/AQA_CAPTAiN_TIGER",
+      "https://t.me/CAPTAN.TIGER",
+      "https://rubika.ir/Im_CAPTAiN_TIGER",
+      "https://eitaa.com/Im_CAPTAiN_TIGER",
+      "https://splus.ir/Im_CAPTAiN_TIGER",
+      "https://splus.ir/AQA_CAPTAiN_TIGER"
+    ]
+  }
+}
+</script>
+
+</head>
+<body>
+<div class="topbar"><div class="wrap nav">
+<a class="brand" href="#top">CAPTAIN <i>TIGER</i></a>
+<div class="links"><a href="#about">PROFILE</a><a href="#stats">STATS</a><a href="#skills">EXPERTISE</a><a href="#history">HISTORY</a><a href="#badges">BADGES</a><a href="#social">SOCIAL</a></div>
+<a class="nav-cta" href="https://sites.google.com/view/captain-tiger/home" target="_blank" rel="noopener">OFFICIAL WEBSITE ↗</a>
+</div></div>
+
+<header class="hero" id="top">
+<div class="hero-art"></div>
+<div class="wrap hero-content">
+<div class="pill"><b></b> IDENTIFY • CAPTAIN TIGER</div>
+<h1>CAPTAIN <span>TIGER</span></h1>
+<p class="hero-copy">هویت دیجیتال، آرشیو سوابق و معرفی حرفه‌ای <b style="color:#f0d18e">CAPTAIN TIGER</b> در حوزه‌های فناوری، برنامه‌نویسی، هوش مصنوعی، کامپیوتر و فعالیت‌های سایبری.</p>
+<div class="hero-actions"><a class="btn primary" href="#about">ENTER PROFILE</a><a class="btn" href="#badges">VIEW IDENTITY ARCHIVE</a></div>
+</div><div class="scroll">SCROLL</div>
+</header>
+
+<section id="about"><div class="wrap">
+<div class="section-head"><div class="eyebrow">01 / PROFILE</div><h2 class="title">یک هویت. چندین نشان.</h2><p class="lead">اطلاعات این صفحه بر اساس مشخصات و تصاویر ارائه‌شده برای پروفایل CAPTAIN TIGER تنظیم شده است.</p></div>
+<div class="about-grid">
+<div class="glass about-main">
+<h3>CAPTAIN TIGER / کاپیتان تایگر</h3>
+<p>نام مجازی شناخته‌شده: <b>CAPTAIN TIGER</b>. حوزه‌های اعلام‌شده شامل IT، برنامه‌نویسی و کدنویسی ویندوز، تحلیل شبکه و برد کامپیوتر، نرم‌افزار و سخت‌افزار موبایل، DVR و دوربین‌های مداربسته، نصب و تغییر ویندوز، هوش مصنوعی و فعالیت‌های گزارش‌دهی سایبری است.</p>
+<div class="facts">
+<div class="fact"><small>BIRTHDAY</small><b>2005</b></div>
+<div class="fact"><small>RESIDENT</small><b>Shiraz</b></div>
+<div class="fact"><small>EDUCATION</small><b>دانشجو</b></div>
+<div class="fact"><small>FIELD</small><b>برق / الکتروتکنیک</b></div>
+<div class="fact"><small>IDENTITY</small><b>CAPTAIN TIGER</b></div>
+<div class="fact"><small>SYMBOL</small><b>☭</b></div>
+</div>
+</div>
+<div class="glass identity"><img src="assets/guard-joint-cyber-federal.png" alt="CAPTAIN TIGER emblem"><div><strong>GUARD JOINT CYBER FEDERAL</strong><span>CAPTAIN TIGER • IDENTITY ARCHIVE</span></div></div>
+</div></div></section>
+
+<section id="stats"><div class="wrap">
+<div class="section-head"><div class="eyebrow">02 / NUMBERS</div><h2 class="title">آمار اعلام‌شده</h2><p class="lead">ارقام زیر به‌صورت تخمینی و بر اساس اطلاعات ارائه‌شده در پروفایل درج شده‌اند.</p></div>
+<div class="stats">
+<div class="glass stat"><div class="num">7,824</div><span class="label">FILTERED ACCOUNTS</span></div>
+<div class="glass stat"><div class="num">951</div><span class="label">REMOVED / TERMINATED ACCOUNTS</span></div>
+<div class="glass stat"><div class="num">976</div><span class="label">FILTERED CHANNELS</span></div>
+<div class="glass stat"><div class="num">7,330</div><span class="label">FILTERED GROUPS</span></div>
+</div></div></section>
+
+<section id="skills"><div class="wrap">
+<div class="section-head"><div class="eyebrow">03 / EXPERTISE</div><h2 class="title">مهارت‌ها و حوزه‌های فعالیت</h2></div>
+<div class="skill-grid">
+<div class="glass skill"><div class="icon">⌘</div><div><h4>IT & COMPUTER</h4><p>مهارت‌های کامپیوتری و زیرساخت</p></div></div>
+<div class="glass skill"><div class="icon">〈/〉</div><div><h4>PROGRAMMING</h4><p>برنامه‌نویسی و کدنویسی ویندوز</p></div></div>
+<div class="glass skill"><div class="icon">◈</div><div><h4>NETWORK ANALYSIS</h4><p>تحلیل شبکه و برد کامپیوتر</p></div></div>
+<div class="glass skill"><div class="icon">▣</div><div><h4>MOBILE HARDWARE</h4><p>نرم‌افزار و سخت‌افزار موبایل</p></div></div>
+<div class="glass skill"><div class="icon">◉</div><div><h4>DVR / CCTV</h4><p>دستگاه‌های DVR و دوربین مداربسته</p></div></div>
+<div class="glass skill"><div class="icon">⌁</div><div><h4>WINDOWS</h4><p>نصب، تغییر و راه‌اندازی ویندوز</p></div></div>
+<div class="glass skill"><div class="icon">✦</div><div><h4>AI</h4><p>آموزش و فعالیت مرتبط با هوش مصنوعی</p></div></div>
+<div class="glass skill"><div class="icon">⚑</div><div><h4>CYBER REPORTING</h4><p>تجربه اعلام‌شده در گزارش‌دهی سایبری</p></div></div>
+</div></div></section>
+
+<section id="history"><div class="wrap">
+<div class="section-head"><div class="eyebrow">04 / HISTORY</div><h2 class="title">Timeline</h2><p class="lead">تاریخ‌های پلتفرمی و سابقه‌هایی که برای پروفایل اعلام شده‌اند.</p></div>
+<div class="timeline">
+<div class="event"><time>93/04/08</time><b>Telegram</b><span>History</span></div>
+<div class="event"><time>93</time><b>اتحاد فدرالی گاد پاور</b><span>شروع فعالیت اعلام‌شده</span></div>
+<div class="event"><time>93</time><b>اتحاد سایبران صلح‌طلب</b><span>شروع فعالیت اعلام‌شده</span></div>
+<div class="event"><time>94/01/29</time><b>Rubika</b><span>History</span></div>
+<div class="event"><time>94/06/04</time><b>Instagram</b><span>History</span></div>
+<div class="event"><time>96</time><b>اکیپ ابرقدرت گاد الله</b><span>شروع فعالیت اعلام‌شده</span></div>
+<div class="event"><time>97</time><b>اکیپ صلیب سرخ / اکیپ پارتی</b><span>شروع فعالیت اعلام‌شده</span></div>
+<div class="event"><time>98</time><b>اکیپ قلب شیشه‌ای</b><span>شروع فعالیت اعلام‌شده</span></div>
+<div class="event"><time>99/10/03</time><b>Aita</b><span>History</span></div>
+<div class="event"><time>1400</time><b>اکیپ جگوار</b><span>شروع فعالیت اعلام‌شده</span></div>
+<div class="event"><time>1401</time><b>اکیپ اسنایپ</b><span>شروع فعالیت اعلام‌شده</span></div>
+<div class="event"><time>1403/06/21</time><b>Soroush</b><span>History</span></div>
+</div></div></section>
+
+<section id="badges"><div class="wrap">
+<div class="section-head"><div class="eyebrow">05 / IDENTITY ARCHIVE</div><h2 class="title">نشان‌ها و هویت بصری</h2><p class="lead">مجموعه تصاویر و نشان‌هایی که برای این پروفایل ارسال شده‌اند.</p></div>
+<div class="badges">
+<figure class="glass badge"><img src="assets/jaguar.jpg" alt="JAGUAR"><figcaption>JAGUAR</figcaption></figure>
+<figure class="glass badge"><img src="assets/guard-joint-cyber-federal.png" alt="GUARD JOINT CYBER FEDERAL"><figcaption>GUARD JOINT CYBER FEDERAL</figcaption></figure>
+<figure class="glass badge"><img src="assets/diplomat-gold.png" alt="DIPLOMAT"><figcaption>DIPLOMAT / حزب دیپلماتیک</figcaption></figure>
+<figure class="glass badge"><img src="assets/diplomat-blackwhite.jpg" alt="DIPLOMAT BLACK WHITE"><figcaption>DIPLOMAT — B/W</figcaption></figure>
+<figure class="glass badge"><img src="assets/federal-god-power.jpg" alt="Federal God Power"><figcaption>FaDaRaL GoD PoWeR</figcaption></figure>
+<figure class="glass badge"><img src="assets/mbc-alliance-malkin.jpg" alt="MBC Alliance Malkin"><figcaption>MBC ALLIANCE MALKIN</figcaption></figure>
+<figure class="glass badge"><img src="assets/hammer-sickle.jpg" alt="Symbol"><figcaption>☭ SYMBOL</figcaption></figure>
+<figure class="glass badge"><img src="assets/communist.jpg" alt="Communist"><figcaption>COMMUNIST</figcaption></figure>
+</div></div></section>
+
+<section><div class="wrap">
+<div class="section-head"><div class="eyebrow">06 / SIGNATURE</div><h2 class="title">CAPTAIN TIGER</h2></div>
+<div class="gallery"><img src="assets/signature-1.jpg" alt="CAPTAIN TIGER signature"><img src="assets/signature-2.jpg" alt="CAPTAIN TIGER signature"><img src="assets/jaguar.jpg" alt="JAGUAR emblem"></div>
+</div></section>
+
+<section id="social"><div class="wrap">
+<div class="section-head"><div class="eyebrow">07 / OFFICIAL LINKS</div><h2 class="title">شبکه‌های اجتماعی</h2><p class="lead">شناسه‌ها و لینک‌هایی که برای انتشار عمومی ارائه شده‌اند.</p></div>
+<div class="socials">
+<a class="glass social" href="https://t.me/Im_CAPTAiN_TIGER" target="_blank" rel="noopener"><span><small>TELEGRAM</small><b>@Im_CAPTAiN_TIGER</b></span><span class="arrow">↗</span></a>
+<a class="glass social" href="https://t.me/AQA_CAPTAiN_TIGER" target="_blank" rel="noopener"><span><small>TELEGRAM</small><b>@AQA_CAPTAiN_TIGER</b></span><span class="arrow">↗</span></a>
+<a class="glass social" href="https://t.me/CAPTAN.TIGER" target="_blank" rel="noopener"><span><small>TELEGRAM</small><b>@CAPTAN.TIGER</b></span><span class="arrow">↗</span></a>
+<a class="glass social" href="https://rubika.ir/Im_CAPTAiN_TIGER" target="_blank" rel="noopener"><span><small>RUBIKA</small><b>@Im_CAPTAiN_TIGER</b></span><span class="arrow">↗</span></a>
+<a class="glass social" href="https://eitaa.com/Im_CAPTAiN_TIGER" target="_blank" rel="noopener"><span><small>EITAA</small><b>@Im_CAPTAiN_TIGER</b></span><span class="arrow">↗</span></a>
+<a class="glass social" href="https://splus.ir/Im_CAPTAiN_TIGER" target="_blank" rel="noopener"><span><small>SOROUSH</small><b>@Im_CAPTAiN_TIGER</b></span><span class="arrow">↗</span></a>
+<a class="glass social" href="https://splus.ir/AQA_CAPTAiN_TIGER" target="_blank" rel="noopener"><span><small>SOROUSH</small><b>@AQA_CAPTAiN_TIGER</b></span><span class="arrow">↗</span></a>
+<a class="glass social" href="https://sites.google.com/view/captain-tiger/home" target="_blank" rel="noopener"><span><small>OFFICIAL WEBSITE</small><b>CAPTAIN TIGER</b></span><span class="arrow">↗</span></a>
+</div>
+<div class="disclaimer"><b style="color:#d9ad55">توضیح:</b> سوابق، عناوین و آمار این صفحه بر اساس اطلاعات ارائه‌شده برای پروفایل تنظیم شده‌اند؛ آمارهای عددی با عنوان تخمینی نمایش داده می‌شوند.</div>
+</div></section>
+</main>
+
+<footer><div class="wrap footer-in"><div class="footer-brand">CAPTAIN <span>TIGER</span></div><div>IDENTIFY • CAPTAIN TIGER — OFFICIAL PROFILE</div></div></footer>
+</body>
+</html>
